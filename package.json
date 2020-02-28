@@ -1,0 +1,25 @@
+{
+  "name": "winStrCmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm run build && node test/index.js",
+    "build":"node-gyp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dengweichi/winStrCmp.git"
+  },
+  "keywords": [],
+  "author": "邓伟驰",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/dengweichi/winStrCmp/issues"
+  },
+  "homepage": "https://github.com/dengweichi/winStrCmp#readme"
+}
