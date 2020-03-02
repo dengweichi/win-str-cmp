@@ -3,11 +3,13 @@
     {
     "target_name": "winStrCmp",
     "sources": [ "src/main.cpp" ],
-      "conditions:": [
+	"defines":["DEBUGGER"],
+    "conditions:": [
          ["OS=='win'",{
-           "libraries": ["-lnode.lib"]
+           "libraries": ["-lnode.lib"],
+		   "defines":"WIN"
          }]
-      ]
+	    ],
     },
   ]
 }
